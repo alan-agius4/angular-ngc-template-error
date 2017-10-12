@@ -1,0 +1,22 @@
+{
+	"name": "@obg/ngx.core.content",
+	"version": "1.2.0",
+	"description": "OBG angular core content sdk",
+	"main": "dist/umd/index.js",
+	"module": "dist/es5/index.js",
+	"typings": "dist/typings/index.d.ts",
+	"scripts": {
+		"start": "npm i",
+		"build": "node_modules/.bin/ngc -p tsconfig.json"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@angular/common": "^4.4.4",
+		"@angular/compiler": "^4.4.4",
+		"@angular/compiler-cli": "^4.4.4",
+		"@angular/core": "^4.4.4",
+		"rxjs": "^5.4.3",
+		"typescript": "^2.5.3",
+		"zone.js": "^0.8.18"
+	}
+}
